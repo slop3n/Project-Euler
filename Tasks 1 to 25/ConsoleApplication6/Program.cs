@@ -4,22 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication6
+class Program
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            long square = 0;
-            long sum = 0;
-            for (int i = 0; i < 101; i++)
-            {
-                square += (i * i);
-                sum += i;
-            }
-            sum = sum * sum;
+    //https://projecteuler.net/problem=6
 
-            Console.WriteLine(sum-square);
+    static void Main(string[] args)
+    {
+        long square = 0;
+        long sum = 0;
+        for (int i = 0; i < 101; i++)
+        {
+            square += (i * i);
+            sum += i;
         }
+        sum = sum * sum;
+
+        Console.WriteLine(sum - square);
     }
 }

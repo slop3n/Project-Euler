@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication01", "ConsoleApplication1\ConsoleApplication01.csproj", "{2DD3C044-ED46-4C4D-BD89-2549EFFA2F09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Multiples of 3 and 5", "ConsoleApplication1\01. Multiples of 3 and 5.csproj", "{2DD3C044-ED46-4C4D-BD89-2549EFFA2F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication02", "ConsoleApplication2\ConsoleApplication02.csproj", "{05844E74-BC16-4577-B59B-EA458204A10D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Even Fibonacci Numbers", "ConsoleApplication2\02. Even Fibonacci Numbers.csproj", "{05844E74-BC16-4577-B59B-EA458204A10D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication03", "ConsoleApplication3\ConsoleApplication03.csproj", "{2C36E97C-6EEE-4A38-B1B3-39271BA25D49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Largest prime factor", "ConsoleApplication3\03. Largest prime factor.csproj", "{2C36E97C-6EEE-4A38-B1B3-39271BA25D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication04", "ConsoleApplication4\ConsoleApplication04.csproj", "{9E33DA47-613D-4AAB-A56C-D750D4ECB9A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Largest palindrome product", "ConsoleApplication4\04. Largest palindrome product.csproj", "{9E33DA47-613D-4AAB-A56C-D750D4ECB9A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication05", "ConsoleApplication5\ConsoleApplication05.csproj", "{F7A96665-3282-4784-B405-516C0BE758FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Smallest multiple", "ConsoleApplication5\05. Smallest multiple.csproj", "{F7A96665-3282-4784-B405-516C0BE758FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication06", "ConsoleApplication6\ConsoleApplication06.csproj", "{72ED20AF-EB13-4814-8DF2-F17098E8EA0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sum square difference", "ConsoleApplication6\06. Sum square difference.csproj", "{72ED20AF-EB13-4814-8DF2-F17098E8EA0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication07", "ConsoleApplication7\ConsoleApplication07.csproj", "{CC979E99-F8FE-4D86-90D6-3B9D6130DAD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. 10001st prime", "ConsoleApplication7\07. 10001st prime.csproj", "{CC979E99-F8FE-4D86-90D6-3B9D6130DAD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication08", "ConsoleApplication8\ConsoleApplication08.csproj", "{75999D5F-9BD9-45BD-98AF-A41627E10E03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Largest product in a series", "ConsoleApplication8\08. Largest product in a series.csproj", "{75999D5F-9BD9-45BD-98AF-A41627E10E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication09", "ConsoleApplication9\ConsoleApplication09.csproj", "{8BF79C90-F65B-44B4-AE4A-01E705EFB6F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Special Pythagorean triplet", "ConsoleApplication9\09. Special Pythagorean triplet.csproj", "{8BF79C90-F65B-44B4-AE4A-01E705EFB6F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication10", "ConsoleApplication10\ConsoleApplication10.csproj", "{86F03F16-4B55-41EE-86A7-AE1DB43DCE3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Summation of primes", "ConsoleApplication10\10. Summation of primes.csproj", "{86F03F16-4B55-41EE-86A7-AE1DB43DCE3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

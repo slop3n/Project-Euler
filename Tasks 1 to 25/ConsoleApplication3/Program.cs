@@ -4,46 +4,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication3
+class Program
 {
-    class Program
+    //https://projecteuler.net/problem=3
+
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        long num = 600851475143;
+        for (int i = 1; i < num / 2; i++)
         {
-            long num = 600851475143;
-            for (int i = 1; i < num / 2; i++)
+            if (num % i == 0)
             {
-                if (num % i == 0)
+                if (IsPrime(i) == true)
                 {
-                    if (IsPrime(i) == true)
-                    {
-                        Console.WriteLine(i);
-                    }
+                    Console.WriteLine(i);
                 }
             }
         }
+    }
 
-        static bool IsPrime(int number)
+    static bool IsPrime(int number)
+    {
+        if (number % 2 == 0)
         {
-            if (number % 2 == 0)
+            if (number == 2)
             {
-                if (number == 2)
-                {
-                    return true;
-                }
+                return true;
+            }
+            return false;
+        }
+
+        int max = (int)Math.Sqrt(number);
+        for (int i = 3; i <= max; i += 2)
+        {
+            if ((number % i) == 0)
+            {
                 return false;
             }
-
-            int max = (int)Math.Sqrt(number);
-            for (int i = 3; i <= max; i += 2)
-            {
-                if ((number % i) == 0)
-                {
-                    return false;
-                }
-            }
-            return true;
         }
-
+        return true;
     }
 }

@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication10
+class Program
 {
-    class Program
+    //https://projecteuler.net/problem=10
+
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
