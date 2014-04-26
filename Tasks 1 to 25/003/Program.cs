@@ -15,7 +15,7 @@ class Program
         {
             if (num % i == 0)
             {
-                if (IsPrime(i) == true)
+                if (isPrime(i) == true)
                 {
                     Console.WriteLine(i);
                 }
@@ -23,25 +23,24 @@ class Program
         }
     }
 
-    static bool IsPrime(int number)
+    public static bool isPrime(int number)
     {
-        if (number % 2 == 0)
+        double boundary = Math.Floor(Math.Sqrt(number));
+
+        if (number == 1)
         {
-            if (number == 2)
-            {
-                return true;
-            }
             return false;
         }
-
-        int max = (int)Math.Sqrt(number);
-        for (int i = 3; i <= max; i += 2)
+        if (number == 2)
         {
-            if ((number % i) == 0)
-            {
-                return false;
-            }
+            return true;
         }
+
+        for (int i = 2; i <= boundary; ++i)
+        {
+            if (number % i == 0) return false;
+        }
+
         return true;
     }
 }
