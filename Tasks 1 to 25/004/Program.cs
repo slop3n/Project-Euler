@@ -11,9 +11,9 @@ class Program
     static void Main(string[] args)
     {
         int number = 0;
-        string numberAsString;
         int maxNum = 0;
         bool palindrome = true;
+        string numberAsString;
         for (int i = 0; i < 1000; i++)
         {
             for (int k = 0; k < 1000; k++)
