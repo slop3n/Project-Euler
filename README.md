@@ -1,4 +1,5 @@
 # My Project Euler Solutions
 
-They are named poorly because the problems are given that way
+Inside each problem is a comment with a link to the description of the problem. 
+
 https://projecteuler.net/problems
