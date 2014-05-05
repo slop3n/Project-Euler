@@ -14,6 +14,7 @@ class Program
         int maxNum = 0;
         bool palindrome = true;
         string numberAsString;
+
         for (int i = 0; i < 1000; i++)
         {
             for (int k = 0; k < 1000; k++)
@@ -35,7 +36,6 @@ class Program
                     {
                         maxNum = int.Parse(numberAsString);
                         Console.WriteLine(maxNum);
-
                     }
                 }
             }
